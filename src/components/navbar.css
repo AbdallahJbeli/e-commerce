@@ -1,0 +1,24 @@
+.navbar {
+  height: 50px;
+  background-color: #1986a7; 
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff; 
+  margin: 80px;
+  font-size: 16px; 
+  transition: color 0.3s ease; 
+}
+
+.links a:hover {
+  color: #000000; 
+}
